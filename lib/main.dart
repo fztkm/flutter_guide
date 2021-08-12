@@ -37,9 +37,9 @@ class _MyAppState extends State<MyApp> {
         body: Column(
           children: [
             Question(list.elementAt(count)),
-            RaisedButton(onPressed: answerQuestion),
-            RaisedButton(onPressed: answerQuestion),
-            RaisedButton(onPressed: answerQuestion),
+            RaisedButton(child: Text('Answer1'), onPressed: answerQuestion),
+            RaisedButton(child: Text('Answer2'), onPressed: answerQuestion),
+            RaisedButton(child: Text('Answer3'), onPressed: answerQuestion),
           ],
         ),
       ),
